@@ -110,7 +110,7 @@ NSString *const WordPressComApiErrorMessageKey = @"WordPressComApiErrorMessageKe
             [_sharedApi signInWithUsername:username password:password success:nil failure:nil];
         }
 
-//        [_sharedApi checkForNewUnseenNotifications];
+        [_sharedApi checkForNewUnseenNotifications];
     });
 
     return _sharedApi;
